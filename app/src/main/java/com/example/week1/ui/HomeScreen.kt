@@ -17,8 +17,9 @@ fun HomeScreen() {
 
     Column(modifier = Modifier
         .fillMaxSize()
-        .padding(16.dp)
+        .padding(18.dp)
     ) {
+        Spacer(modifier = Modifier.height(38.dp))
         Text(
             text = "Viikko 1 Tehtävälista",
             modifier = Modifier.fillMaxWidth(),
